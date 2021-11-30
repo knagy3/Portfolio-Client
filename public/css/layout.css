@@ -212,7 +212,7 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  background: #fff;
+  background: #f4f4fa;
 }
 
 /* #about a,
@@ -290,7 +290,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #f4f4fa;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -489,7 +489,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: #f4f4fa;
   padding-top: 90px;
   padding-bottom: 60px;
 }

@@ -2,7 +2,6 @@ import React from "react";
 
 const Resume = ({ data }) => {
   if (data) {
-    var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
       return (
         <div key={education.school} data-aos="zoom-out-left" data-aos-duration="1500">
@@ -16,15 +15,28 @@ const Resume = ({ data }) => {
       );
     });
 
-    var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+    var mainSkills = data.skills.slice(0,4).map(function (skills) {
       return (
-        <li key={skills.name}>
-          <span style={{ width: skills.level }} className={className} data-aos="fade-right"></span>
-          <em>{skills.name}</em>
-        </li>
+        <div key={skills.name} className="flex items-center space-x-3">
+          <img src={skills.icon} alt={skills.level} className="w-14 object-contain" />
+          <div className="w-full bg-gray-200 h-6 rounded-xl">
+            <div className="bg-secondary h-auto leading-none py-1 text-center text-white rounded-xl text-lg" style={{ width: skills.level }}>{skills.level}</div>
+          </div>
+        </div>
       );
     });
+
+    //others
+    var otherSkills = data.skills.slice(4,50).map(function (skills) {
+      return (
+        <div key={skills.name} className="flex flex-col space-x-3">
+          <img src={skills.icon} alt={skills.level} className="w-16 object-contain" />
+          {/* <h1 className="text-sm text-gray-500" style={{fontSize:'12px'}}>{skills.level}</h1> */}
+        </div>
+      );
+    });
+
+
   }
 
   return (
@@ -36,25 +48,31 @@ const Resume = ({ data }) => {
           </h1>
         </div>
 
-        <div className="nine columns main-col">
+        <div className="nine columns main-col bg-white p-12 box-border rounded-xl shadow-xl">
           <div className="row item">
             <div className="twelve columns">{education}</div>
           </div>
         </div>
       </div>
 
-      <div className="row skill">
+      <div className="row skill ">
         <div className="three columns header-col">
           <h1 data-aos="zoom-out-right" data-aos-duration="1500">
             <span>Skills</span>
           </h1>
         </div>
 
-        <div className="nine columns main-col">
-          <p>{skillmessage}</p>
+        <div className="nine columns main-col bg-white p-12 box-border rounded-xl shadow-xl">
+          <div className="bars mb-9">
+            <ul className="flex flex-col space-y-5">{mainSkills}</ul>
+          </div>
 
-          <div className="bars">
-            <ul className="skills">{skills}</ul>
+          <h1>
+            <span>Other skills</span>
+          </h1>
+
+          <div className=" my-10">
+            <ul className="flex items-center space-x-6">{otherSkills}</ul>
           </div>
         </div>
       </div>

@@ -6,6 +6,9 @@
 .bg-primary {
   @apply bg-red-500;
 }
+.bg-secondary {
+  @apply bg-red-400;
+}
 .submit {
   background-color: black;
   border-radius: 5px;
