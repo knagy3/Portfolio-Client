@@ -45,14 +45,17 @@ const App = () => {
 
   return (
     <>
-    {loading ?
-        <SyncLoader color={'#EB9A85'} loading={loading} size={30} css={override} />
+      {loading ?
+        <>
+          <SyncLoader color={'#ef4444'} loading={loading} size={30} css={override} />
+        </>
+
         :
         <div className="App">
-          <Header data={resumeData.main}/>
-          <About data={resumeData.main}/>
+          <Header data={resumeData.main} />
+          <About data={resumeData.main} />
           <Resume data={resumeData.resume} />
-          <Portfolio data={resumeData.portfolio}/>
+          <Portfolio data={resumeData.portfolio} />
           <Testimonials data={resumeData.testimonials} />
           <Contact data={resumeData.main} />
           <Footer data={resumeData.main} />
@@ -60,7 +63,7 @@ const App = () => {
 
       }
     </>
-   
+
   );
 };
 

@@ -31,7 +31,6 @@ const Resume = ({ data }) => {
       return (
         <div key={skills.name} className="flex flex-col space-x-3">
           <img src={skills.icon} alt={skills.level} className="w-16 object-contain" />
-          {/* <h1 className="text-sm text-gray-500" style={{fontSize:'12px'}}>{skills.level}</h1> */}
         </div>
       );
     });

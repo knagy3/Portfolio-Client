@@ -305,6 +305,16 @@ ul#nav li.current a {
   color: #313131;
 }
 
+#portfolio h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#portfolio h1 span {
+  border-bottom: 3px solid #eb9a85;
+  padding-bottom: 6px;
+  font-size: 20px;
+}
 #resume h1 {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
@@ -529,7 +539,7 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap {
   background: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 
   -webkit-transition: all 0.3s ease-in-out;
@@ -967,12 +977,7 @@ call-to-action .button {
 }
 #contact button.submit {
   margin-top: 6px;
-  background-image: linear-gradient(
-    to right,
-    #feac5e 0%,
-    #c779d0 51%,
-    #feac5e 100%
-  );
+  background: #ef4444;
   margin: 10px;
   margin-left: 26%;
   padding: 13px 25px;
