@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import SyncLoader from "react-spinners/SyncLoader";
 import "./App.css";
 import About from "./Components/About";
+import Blogs from "./Components/Blogs";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -63,6 +64,7 @@ const App = () => {
               <About data={resumeData.main} />
               <Resume data={resumeData.resume} />
               <Portfolio data={resumeData.portfolio} />
+              <Blogs />
               <Testimonials data={resumeData.testimonials} />
               <Contact data={resumeData.main} />
               <Footer data={resumeData.main} />
