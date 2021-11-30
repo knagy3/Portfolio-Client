@@ -1,4 +1,5 @@
 import React from "react";
+import { MdDownload } from 'react-icons/md';
 
 const Header = ({ data }) => {
   if (data) {
@@ -58,6 +59,7 @@ const Header = ({ data }) => {
               Contact
             </a>
           </li>
+
         </ul>
       </nav>
 
@@ -73,6 +75,13 @@ const Header = ({ data }) => {
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
+          {/* button  */}
+          <div className="flex justify-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1-kwFbYX3BBxMhJJX8-yiqdIaYzohJJVB/view" className="bg-primary flex items-center space-x-3 text-white px-8 py-4 rounded-full text-2xl " style={{color:"white", fontSize:"15px"}}>
+              <MdDownload />
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
 

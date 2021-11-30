@@ -3,12 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.bg-primary {
+  @apply bg-red-500;
+}
 .submit {
   background-color: black;
   border-radius: 5px;
   padding: 20px;
 }
-body::-webkit-scrollbar{
-  display:none;
+body::-webkit-scrollbar {
+  display: none;
 }
