@@ -74,7 +74,7 @@ const Portfolio = ({data}) => {
             }}
             effect={'coverflow'} 
             grabCursor={true} 
-            centeredSlides={true} 
+            centeredSlides={false} 
             slidesPerView={3} 
             coverflowEffect={{ "rotate": 0, "stretch": 0, "depth": 300, "modifier": 1, "slideShadows": false }} 
             pagination={true} 
