@@ -147,10 +147,10 @@
       {
         "id": 2,
         "images": [
-          "https://awesomescreenshot.s3.amazonaws.com/image/2491978/17664590-622f725156df895e9cf30761306b1fe2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211130T152715Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=de889b0c1cf208a7653760b659c32c6f933445087d6676265a2156adb922a398",
-          "https://awesomescreenshot.s3.amazonaws.com/image/2491978/17669734-85224677754ccec55db38bf13cc0d78d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211130T164020Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=afef84b896bc47cbaa3f0d7dada662241a07c1ae74600e1a2b2c847431e59664",
-          "https://awesomescreenshot.s3.amazonaws.com/image/2491978/17669860-52d01b1f493a77827c94879124c64133.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211130T164154Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=7c2a66b96de0bf0a3eadb594a2e1ee1a53dd26c9eb1d75a089020a92c40de837",
-          "https://awesomescreenshot.s3.amazonaws.com/image/2491978/17670041-b9d81b01a469b661ae3c8943dd7e63a9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20211130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211130T164437Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=97764ab1b213732659a99e1e53dcee3e3b649452ae285fc7c37db0cb2039acff"
+          "https://i.ibb.co/h1jJL21/Cortex-Link.png",
+          "https://i.ibb.co/2yGc3pk/Cortex-Link1.png",
+          "https://i.ibb.co/ZXH25nV/Cortex-Link-3.png",
+          "https://i.ibb.co/cFqDkYz/Cortex-Link-4.png"
         ],
         "description": [
           "Implemented a beautiful UI with React JS and Tailwind CSS",
